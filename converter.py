@@ -1,3 +1,5 @@
+"""Converts png, bmp and gif to jpg, removes descriptions and resizes the image to a maximum of 1920x1080."""
+
 from PIL import Image
 from glob import glob
 import PIL
