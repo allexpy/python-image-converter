@@ -5,8 +5,8 @@ import sys
 import os
 
 
-path = '/home/alex/Documents/Proiecte/Python/image_converter/new/'
-path_originals = '/home/alex/Documents/Proiecte/Python/image_converter/originals/'
+path = '/home/new_images/'
+path_originals = '/home/original_images/'
 
 if not os.path.exists(path):
     os.makedirs(path)
